@@ -1,0 +1,29 @@
+{
+  "name": "cp",
+  "version": "1.0.0",
+  "description": "react demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --port 8000 --hot --inline --content-base  build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^6.2.0",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "babel-loader": "^6.2.0",
+    "babel-preset-react": "^6.3.13",
+    "jquery": "^2.1.4",
+    "jsx-loader": "^0.13.2",
+    "marked": "^0.3.5",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "zepto": "0.0.4"
+  }
+}
